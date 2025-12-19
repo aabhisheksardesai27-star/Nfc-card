@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Digital Business Card</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(180deg, #0b0b0b, #111111);
+        color: #ffffff;
+    }
+
+    .card {
+        max-width: 420px;
+        margin: 0 auto;
+        padding: 24px 18px 30px;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        height: 42px;
+    }
+
+    .profile {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .profile img {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 3px solid #d4af37;
+        object-fit: cover;
+    }
+
+    h1 {
+        margin: 14px 0 4px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #d4af37;
+    }
+
+    .bio {
+        margin: 14px auto 20px;
+        font-size: 13px;
+        color: #cccccc;
+        max-width: 360px;
+        line-height: 1.5;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 16px;
+        border-radius: 14px;
+        background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+        border: 1px solid rgba(212,175,55,0.4);
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+    }
+
+    .btn span {
+        color: #d4af37;
+        font-size: 18px;
+    }
+
+    .save-contact {
+        margin-top: 22px;
+        background: linear-gradient(135deg, #d4af37, #b8962e);
+        color: #000;
+        font-weight: 600;
+        justify-content: center;
+        border: none;
+    }
+
+    .footer {
+        margin-top: 28px;
+        text-align: center;
+        font-size: 11px;
+        color: #777;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+
+    <!-- LOGO -->
+    <div class="logo">
+        <!-- Replace logo.png -->
+        <img src="logo.png" alt="Company Logo">
+    </div>
+
+    <!-- PROFILE -->
+    <div class="profile">
+        <!-- Replace profile.jpg -->
+        <img src="profile.jpg" alt="Profile Photo">
+        <h1>FULL NAME</h1>
+        <h2>Job Title · Company Name</h2>
+        <p class="bio">
+            Short professional bio goes here. Keep it clean, premium and to the point.
+        </p>
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="buttons">
+        <a class="btn" href="#"><span>📞</span> Call Now</a>
+        <a class="btn" href="#"><span>💬</span> WhatsApp</a>
+        <a class="btn" href="#"><span>✉️</span> Email</a>
+        <a class="btn" href="#"><span>📍</span> Address</a>
+        <a class="btn save-contact" href="#">➕ Add to Contacts</a>
+    </div>
+
+    <div class="footer">
+        Powered by NFC Digital Card
+    </div>
+
+</div>
+
+</body>
+</html>
